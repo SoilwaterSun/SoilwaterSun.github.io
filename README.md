@@ -1,8 +1,14 @@
-## 孙圳的简历
+# 孙圳的简历
 
-You can use the [editor on GitHub](https://github.com/SoilwaterSun/SoilwaterSun.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+性别：男
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+年龄：20
+
+手机：1573606****
+
+email：172878052@qq.com
+
+————世界以痛吻我，我要报之以歌。
 
 ### Markdown
 
