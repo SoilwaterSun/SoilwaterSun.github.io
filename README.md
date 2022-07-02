@@ -33,6 +33,7 @@ GPA: 经济学 91.67/100 ;
 
 ### 国家级创新研究项目(2022.05-2024.03)
 第一负责人：养老服务需求影响因素及其支付意愿的研究——基于中国城市居民的实地调研
+
 关键词：养老服务需求以及支付意愿；养老影响因素异质性；养老政策。
 ### 科研论文(2022.03-2022.08)
 The 2nd author： The “bottom-up” abatement on climate from the “top-down” design: Lessons learned from China’s low-carbon city pilot policy
