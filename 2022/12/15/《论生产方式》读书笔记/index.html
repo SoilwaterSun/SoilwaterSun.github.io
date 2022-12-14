@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/fav.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/fav.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="问题一：作者是怎么认识生产方式的？问题二：布雷弗曼的主要观点（或者关于劳动过程理论）主要是什么？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《论“生产方式”》读书笔记">
+<meta property="og:url" content="http://example.com/2022/12/15/%E3%80%8A%E8%AE%BA%E7%94%9F%E4%BA%A7%E6%96%B9%E5%BC%8F%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="问题一：作者是怎么认识生产方式的？问题二：布雷弗曼的主要观点（或者关于劳动过程理论）主要是什么？">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-12-15T11:48:51.000Z">
+<meta property="article:modified_time" content="2022-12-14T16:31:40.468Z">
+<meta property="article:author" content="Zhen Sun">
+<meta property="article:tag" content="政治经济学">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2022/12/15/%E3%80%8A%E8%AE%BA%E7%94%9F%E4%BA%A7%E6%96%B9%E5%BC%8F%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style><style>
+#needsharebutton-float {
+  bottom: 88px;
+  cursor: pointer;
+  left: -8px;
+  position: fixed;
+  z-index: 9999;
+}
+#needsharebutton-float .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 4px;
+  padding: 0 10px 0 14px;
+}
+</style>
+  <title>《论“生产方式”》读书笔记 | My Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">My Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-日常记录">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日常记录</a>
+
+  </li>
+        <li class="menu-item menu-item-个人介绍">
+
+    <a href="/personal-info/" rel="section"><i class="fas fa-user-circle fa-fw"></i>个人介绍</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/12/15/%E3%80%8A%E8%AE%BA%E7%94%9F%E4%BA%A7%E6%96%B9%E5%BC%8F%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Zhen Sun">
+      <meta itemprop="description" content="">
+    </span>
+   
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="My Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          《论“生产方式”》读书笔记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-12-15 19:48:51 / 修改时间：00:31:40" itemprop="dateCreated datePublished" datetime="2022-12-15T19:48:51+08:00">2022-12-15</time>
+            </span>
+
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>5.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+            <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6/" rel="tag"><i class="fa fa-tag"></i> 政治经济学</a>
+          </div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>问题一：作者是怎么认识生产方式的？<br>问题二：布雷弗曼的主要观点（或者关于劳动过程理论）主要是什么？</p>
+<span id="more"></span>
+<p>一方面对拉美历史不了解，另一方面对拉美相关经济理论不能说不了解但说起来还真不怎么了解，因而在挑选重点篇章阅读的过程中有些思想未免来得有些突然。不禁让人思考，是怎样的社会背景促使作者对原有发展理论的反思？其依附理论和国际经济学里面提过的中心外围理论有怎样的区别与联系？对于同样的问题，其他流派又是怎样进行分析和阐释的？是否会有没这么激进和革命的理论，以及那些相对保守的理论是如何切入分析的？所以，读书笔记既然是为我所用，不免还得收集和总结一下成书历史背景，作者介绍、流派发展与理论对比等内容，再开启对本书理论的梳理与思考。</p>
+<h1 id="关于生产方式"><a href="#关于生产方式" class="headerlink" title="关于生产方式"></a>关于生产方式</h1><p>作为《资本论》中出现频率最高的词汇之一，生产方式表达的含义不完全相同。一些学者用斯大林的界定，认为生产方式是生产力与生产关系的统一；而另一些学者认为生产方式指经济制度或生产关系，因而将生产力排除出去了。吴易风教授按照“生产力—生产方式—生产关系”的一贯分析原理，虽然意识到“生产方式即在特定方式下进行的生产活动是必不可少的中介”，但却认为“资本主义生产方式”是生产的资本主义的社会形式，因而资本主义生产方式又和资本主义生产关系同义了，最终“资本主义生产方式”的特定内涵还是不清晰的。</p>
+<p>（问题一：）作者认为有两种含义：第一，强调广义的生产方式的概念，指社会生产的类型或型式，一般用词喜欢加上“社会的”这个定语，因而是“社会的生产方式”，具有总体性的特征，也就与“资本主义生产”、“资本主义经济”以及“资本主义经济形态”概念大致相当；第二，强调狭义的生产方式的概念，指社会生产的劳动方式。这种生产方式表现为一定的劳动方式，表现了人与人的关系和人与自然的双重关系。作者认为《资本论》第一卷中的“生产方式”或“资本主义生产方式”主要指劳动方式或资本主义的劳动方式，马克思力图揭示的是雇佣劳动者的劳动方式在资本控制下的演变趋势，最终使劳动从形式上转变为实际意义对资本的从属。</p>
+<p>这里的BUG在于第二种狭义概念里面提及的“劳动方式”的界定似乎更为模糊。根据专家的观点，劳动方式是劳动者参加生产时所采取的劳动组织形式,包括劳动组织之间及内部的分工协作形式。作者的观点是，生产过程是从结果和产品的角度来看的劳动过程，劳动过程是从能动主体的角度来看的生产过程，所以生产方式和劳动方式也可以是同义的。这是有道理的，至少生产方式和劳动方式应该是同一过程下的。为支持第二种狭义概念的理解，作者在《资本论》中找出的原文强调了“生产方式”通常用来指协作、工场手工业分工和机器大工业等资本主义“劳动方式”。因而劳动方式基本可以认为是劳动组织形式，是一种具体的范畴。但是，我认为，生产方式这个范畴蕴含着具体和抽象的辩证关系，这也马克思为什么没有将“生产方式”中的“劳动方式”的含义部分单独称之为“劳动方式”的原因，因为他想阐述的生产方式是饱涵丰富具体的，但又是抽象概念的统一体。因而对于“资本主义生产方式”的理解，我认为不仅要抓住作者所言的“劳动方式”，同时也应该把握住具体背后抽象出的“生产方式”，二者是不可分割的。这也就是为什么在劳动过程与价值增殖过程一节中似乎认为，与价值增殖过程所体现的社会关系不同，劳动过程似乎更多是一种毫无社会关系的人与自然的关系，根本就在于这里的劳动过程所体现的生产方式是一种不带尘世的抽象，而在协作、工场手工业和机器大工业的生产方式却满是尘世的具体。如果只认为《资本论》第一卷中的资本主义生产方式是劳动方式的含义便是没有贯通阶段性特征和总体特征的表现。生产方式在各个时间阶段或节点表现为不同的劳动方式，若把生产方式在一定情境下部分地当作劳动方式（而没有把握辩证关系），就像把价值在一定情境下部分地当作价格，那么在利润率下降规律部分以价格测算不变资本和可变资本所带来的矛盾便会吸引大家的眼光，虽然马克思的最终意义并不在于这个测算过程但仍为抠字眼的人所深究，以至于使得这些抠字眼的人提出了他们认为的新的范畴的重要性。在我看来，提出生产方式和劳动方式的坏处是一样的。这还是一种语言上的内耗，人家明明有（born with）两方面的含义，用久了可能更多强调其某个更具意义性的含义，所以有人再造了词或者借用了别的词语来重申原有概念另一方面意义的重要性，这只是语言上的填补。不过，它还是有好处，在于强调了对具体劳动方式研究的重要性，或者对生产方式把握的过程中不能没有劳动方式，之所以作者如此强调劳动方式而似乎彻底放弃了生产方式抽象的一面，可能是因为一定的学术背景，这自然是一种善意的提醒。必须承认的是，关于生产方式的劳动方式意义上的理解，作者阐述的还是比较精彩。下面不再阐述生产方式在把握上本就应该兼具两方面的意义，这也不会失掉中介性质的意义，对于原文的表述也不作更改。</p>
+<p>作者根据“生产力—生产方式—生产关系”的一贯分析原理以及结合《资本论》的第一卷的原文，认为“资本主义生产方式”应该理解为“资本主义劳动方式”，即强调劳动方式的中介性质的内容，是生产力与生产关系的中介媒介。因此，劳动方式一方面与生产力和生产技术条件相关，另一方面与生产关系相关，即受到社会条件和经济关系的制约。资本主义生产方式与生产关系和交换关系相适应也就可以理解为，生产关系与劳动方式相一致；典型资本主义劳动方式发展后资本主义生产关系才能够得以普遍的发展。</p>
+<p>马克思的研究对象是“生产方式”或“劳动方式”，因而他对直接生产过程中经济关系的考察放在了基础性的位置，而不是关注分配领域中的经济关系（正如20世纪很多马克思主义者做的那样），也不仅仅满足于对生产关系的一般抽象的理论分析。马克思虽然强调了从结果上来看，资本主义剥削制度最终使工人的生活陷入相对或绝对的贫困，但是在行文上也强调了居于首要地位的资本主义劳动方式使雇佣工人的劳动发生了异化，劳动者逐渐成为资本的附庸。不过在后来的马克思主义理论研究中这一传统似乎被忽视和丢弃了。（问题二：）布雷弗曼总结了这种现象的原因和历史背景。一方面，20世纪的重大事件以及科学技术的发展使得马克思主义者的研究以及工人运动发生了转向，对生产方式的批判逐渐让位于对资本主义分配方式的批判。另一方面，社会主义苏联绕不开工业化的历史阶段，因而这种（资本主义的）生产过程成了模仿的对象，因而深入生茶过程的批判相对较少。总之，马克思主义者都被这样的意识形态影响：马克思以谨慎保留的态度论述资本主义的技术，而对劳动组织和管理则采取激烈敌对的批判。</p>
+<h1 id="资本主义劳动过程的特殊性质和劳动方式的基本特征"><a href="#资本主义劳动过程的特殊性质和劳动方式的基本特征" class="headerlink" title="资本主义劳动过程的特殊性质和劳动方式的基本特征"></a>资本主义劳动过程的特殊性质和劳动方式的基本特征</h1><p>资本主义劳动方式作为特殊的资本主义生产方式，具有若干基本特征。这些特征实际上根源于资本主义劳动过程的特殊性质。</p>
+<p>首先，总结资本主义劳动过程的特殊性质。</p>
+<p>（一）资本主义劳动过程不仅生产商品和劳务，而且还创造价值和剩余价值，这是资本生产和资本积累的现实基础。在资本家对工人剩余劳动的剥削关系基础上，劳动过程中创造的剩余价值越大，便越有利于资本积累。在这样的社会关系下进行的劳动过程包含着资本家与工人的不同目标，在商品经济规律的承认下形成了“二律背反”。当工人出卖给资本家的只是一定时间内的劳动力使用权，是潜在的劳动力而非现实的劳动量，那么工人和资本家之间便存在一个弹性的博弈空间，作者认为这种现象会让矛盾变得尖锐，但事实由于博弈空间具有弹性，矛盾到底是尖锐还是缓和并不能一概而论。</p>
+<p>（二）由此可以看出，资本主义劳动过程既是一种社会过程，也是一种技术过程。劳动需要管理，资本主义劳动过程必须得以协调劳动者与生产资料的技术配置，但资本主义生产的核心在于生产剩余价值，为达到这个目的资本需要控制（管理）劳动过程。简单地说，协调是技术上的需要；控制则是社会关系的需要，正是它构成资本主义管理的本质特征。（问题二：）布雷弗曼强调了控制是一切管理制度的中心思想。</p>
+<p>（三）这样一个由资本家组织、指挥和管理的劳动过程，是资本主义关系下的一种社会组织，这样的社会组织可以被认为一个控制体系。这样的控制体系有直接控制和间接控制两种方式。直接控制有三种主要的控制方式：强力监督、机器驱使和利益激励。从长期发展趋势来看，第二、三两种控制方式运用增多。直接控制往往由于资本借助劳动市场施加的间接控制而加强，主要是因为资本主义劳动市场产业工人过剩（产业后备军），工人间存在激烈的竞争。在这个意义上，资本凭借劳动市场的竞争形成了对劳动的控制力量，反映了整个资产阶级对工人阶级的客观控制力，可以理解为资本的秩序。由于资本流动性大于劳动力流动性，这也强化了资本对工人的客观控制力。</p>
+<p>（四）以一定技术为基础的劳动过程同时受到特定生产关系的制约。很多学者认为，劳动过程决定于技术条件，特别是劳动工具的性质，属于是生产的技术结合方式。他们强调技术是劳动过程的物质基础，制约着各种生产要素之间以及要素投入与产出之间的关系，因而技术条件对劳动过程有约束力。不过劳动过程不仅仅是由技术条件决定的，还会受到生产关系的制约。（问题二：）布雷弗曼也有相似的观点，组织和进行劳动过程的方式是资本主义社会关系的产物。马克思在《资本论》中也强调了劳动方式作为社会范畴的意义，深刻揭示了作为劳动方式的资本主义生产方式具有的社会历史特征。</p>
+<p>（五）最后，对资本主义劳动过程的特殊性质做一个总结：资本主义劳动过程的基础是劳动过程的社会化。在微观方面，以企业大规模集体劳动为特征；在宏观方面，以社会各部门劳动的相互依存为特征。这是与前资本主义劳动过程的一个根本区别。这种社会化随着资本主义的发展而有所提高。</p>
+<p>根据以上资本主义劳动过程的特殊性质，从工人自身的劳动行为来观察，其劳动方式有以下的基本特征。</p>
+<p>（一）资本主义劳动方式的第一个特征是工人之间不断细化的劳动分工。资本主义的生产不仅分解劳动过程（前资本主义的发明），并且进一步分解工人，让工人从事不同的劳动操作。见斯密分工的例子。</p>
+<p>（二）资本主义劳动方式的另一个特征是工人劳动的片面化、畸形化，成为局部工人。资本主义促进专业分工是资本榨取剩余价值的需要，同时也加强了劳动对资本的依附。</p>
+<p>（三）资本主义劳动方式的最重要的特征是在大规模机器生产中工人劳动成为机器的附庸。机器生产是典型的资本主义劳动方式，现代大工厂成为资本主义的典型生产单位。这种机器大工业的劳动方式彻底改变了人与生产工具的关系，不是工人使用劳动条件，而是劳动条件使用工人。</p>
+<p>（四）对于以上劳动方式的基本特征可以总结为：以社会化的机器生产为基础，细密的分工，工人劳动的片面化、简单化和畸形化，日益成为机器的附庸。之所以称之为基本特征，是因为这些特征的具体表现和轻重程度在工人间差别大，但都多少存在着。这些基本特征根源于剩余价值的生产，反映了资本主义生产关系对劳动过程的决定性影响。</p>
+<p>最后，作者重申了劳动方式在资本主义经济关系的重要性，并以马克思的原文作为证据，强调了生产力与生产关系都应该立足于劳动范畴加以规定。</p>
+<h1 id="资本主义劳动过程在现代的变与不变"><a href="#资本主义劳动过程在现代的变与不变" class="headerlink" title="资本主义劳动过程在现代的变与不变"></a>资本主义劳动过程在现代的变与不变</h1><p>一个需要回应的重要问题是，进入20世纪后，资本主义生产技术和经济条件发生了巨变，资本主义劳动过程是否仍然具有《资本论》中所描述的基本特征？作者引用（问题二：）布雷弗曼关于理论和实证两方面的说明，认为资本主义劳动过程仍然保持着马克思论述的基本特征。</p>
+<p>（一）分工和专业化继续发展。分工不仅强化资本对劳动的控制，还可以降低劳动成本。（问题二：）布雷弗曼强调了降低劳动成本对分工的一个反作用，也就是说分工将复杂的技术性劳动分解为简单的重复性操作，从而把从事简单操作的工人工资大大降低。这反映的是分工的社会方面，而非传统意义上的技术方面。随着机器大工业的发展，企业内部继续了分工的细化。20世纪以来，资本主义劳动过程中仍然存在使普通工人日益成为单纯操作者的趋势，（问题二：）布雷弗曼用“概念与执行相分离”概括这种趋势，体现的是泰罗开创的科学管理的核心原则，该管理模式已经成为资本主义企业管理的基石。布雷弗曼把泰罗制的科学管理概括为三条原则：第一，劳动过程和工人的技术相分离。方法是将一切传统技术知识简化为具体的操作规则。第二，概念与执行相分离。让工人成为单纯的操作者和执行者。第三，经理部门利用知识垄断控制劳动过程。</p>
+<p>（二）工人劳动技能趋于简单化和程序化也继续存在。工人逐渐被去技能化，在细密的分工中成为局部工人。工人劳动的去技能化在资本主义工业化过程中表现最为突出，这被“社会积累结构”学派称为“均质化”。这种劳动均质化形成的关系被称为“驱赶制度”，涉及三个方面：机械化和职业调整促进工作重组导致生产工人就业日趋均质化；规模迅速扩张的工厂劳动者去个性化特征；工头的作用使得控制制度具有强烈的监督功能。20世纪以后，生产过程逐渐向半自动化和自动化方向发展，劳动市场出现了“二元化”，这不仅影响蓝领工人、白领雇员还有服务业工人。</p>
+<h1 id="关于布雷弗曼著作的批判"><a href="#关于布雷弗曼著作的批判" class="headerlink" title="关于布雷弗曼著作的批判"></a>关于布雷弗曼著作的批判</h1><p>（一）涉及工人阶级的反抗和阶级斗争问题。他们认为布雷弗曼忽视和低估了阶级斗争在劳动过程形成中的作用。作者认为这是他们的误读，没有领会作者的论述重点。但需要补充的是，阶级斗争会带来不同国家不同部门阶级力量对比实际状况的不同，劳动过程的组织和方式可以有所区别。这正是拉佐尼克强调的生产关系中的具体权力对劳动过程的影响。</p>
+<p>（二）涉及工人阶级主观性问题；<br>（三）涉及资本主义管理的策略；<br>（四）涉及工人的去技能化。这一点质疑作者尤为重视。对于上述争论中，需要说明的是职业结构的新变化是否向传统理论提出了质疑。作者认为可能是高级人才的迅速增长从而减小了普通雇员的比例，这种似乎违背去技能化的现象是否是新的趋势还有待观察。作者还提出了另一种解释，将这种国别现象纳入到经济全球化的大背景下，可以认为一方面大规模产业转移，普通雇员的减少不过是被国别统计现象掩盖了；另一方面，转移到国外的制造业多为劳动密集型产业，进一步加强掩盖低技能工人的增长。</p>
+<h1 id="生产方式作为政治经济学研究对象的理论和实践意义"><a href="#生产方式作为政治经济学研究对象的理论和实践意义" class="headerlink" title="生产方式作为政治经济学研究对象的理论和实践意义"></a>生产方式作为政治经济学研究对象的理论和实践意义</h1><p>长期以来，由于对于“生产方式”范畴把握的不准确，劳动方式问题一直不在马克思主义学者的研究视野之内，主要把劳动方式和劳动过程看做是单纯的物质技术问题。但劳动过程具有历史形式，对具体的特殊的资本主义劳动过程分析时，经济关系对劳动过程的影响就不可忽视了。</p>
+
+        End.
+      
+    </div>
+
+    
+    
+    <div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6/" rel="tag"><i class="fa fa-tag"></i> 政治经济学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/11/08/%E3%80%8A%E5%B8%9D%E5%9B%BD%E4%B8%BB%E4%B9%89%E4%B8%8E%E4%BE%9D%E9%99%84%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="prev" title="《帝国主义与依附》读书笔记">
+      <i class="fa fa-chevron-left"></i> 《帝国主义与依附》读书笔记
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/12/15/%E3%80%8A%E5%A4%A7%E7%B9%81%E8%8D%A3%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="next" title="《大繁荣》读书笔记">
+      《大繁荣》读书笔记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81NzQ1My8zMzkxNw=="></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E7%94%9F%E4%BA%A7%E6%96%B9%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">关于生产方式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%8A%B3%E5%8A%A8%E8%BF%87%E7%A8%8B%E7%9A%84%E7%89%B9%E6%AE%8A%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8A%B3%E5%8A%A8%E6%96%B9%E5%BC%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%89%B9%E5%BE%81"><span class="nav-number">2.</span> <span class="nav-text">资本主义劳动过程的特殊性质和劳动方式的基本特征</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%8A%B3%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%9C%A8%E7%8E%B0%E4%BB%A3%E7%9A%84%E5%8F%98%E4%B8%8E%E4%B8%8D%E5%8F%98"><span class="nav-number">3.</span> <span class="nav-text">资本主义劳动过程在现代的变与不变</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%B8%83%E9%9B%B7%E5%BC%97%E6%9B%BC%E8%91%97%E4%BD%9C%E7%9A%84%E6%89%B9%E5%88%A4"><span class="nav-number">4.</span> <span class="nav-text">关于布雷弗曼著作的批判</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%9F%E4%BA%A7%E6%96%B9%E5%BC%8F%E4%BD%9C%E4%B8%BA%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%90%86%E8%AE%BA%E5%92%8C%E5%AE%9E%E8%B7%B5%E6%84%8F%E4%B9%89"><span class="nav-number">5.</span> <span class="nav-text">生产方式作为政治经济学研究对象的理论和实践意义</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Zhen Sun</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+      
+      
+      
+  <div class="links-of-blogroll motion-element links-of-blogroll-block">
+    <div class="links-of-blogroll-title">
+      <!-- modify icon to fire by szw -->
+      <i class="fa fa-history fa-" aria-hidden="true"></i>
+      近期文章
+    </div>
+    <ul class="links-of-blogroll-list">
+      
+      
+        <li class="recent_posts_li">
+          <a href="/" title="" target="_blank"></a>
+        </li>
+      
+        <li class="recent_posts_li">
+          <a href="/" title="" target="_blank"></a>
+        </li>
+      
+        <li class="recent_posts_li">
+          <a href="/" title="" target="_blank"></a>
+        </li>
+      
+        <li class="recent_posts_li">
+          <a href="/" title="" target="_blank"></a>
+        </li>
+      
+        <li class="recent_posts_li">
+          <a href="/" title="" target="_blank"></a>
+        </li>
+      
+    </ul>
+  </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zhen Sun</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">49k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">45 分钟</span>
+</div>
+
+<!--
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+-->
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+<div id="needsharebutton-float">
+      <span class="btn">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </span>
+    </div>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,QQZone,Weibo,Douban,Twitter,Facebook";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+      flOptions = {};
+        flOptions.iconStyle = "box";
+        flOptions.boxForm = "horizontal";
+        flOptions.position = "middleRight";
+        flOptions.networks = "Wechat,QQZone,Weibo,Douban,Twitter,Facebook";
+      new needShareButton('#needsharebutton-float', flOptions);
+  </script>
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+</body>
+</html>
